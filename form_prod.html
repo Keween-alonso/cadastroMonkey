@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title_index">Cadastrar Produto</h1>
+    <div class="formBox">
+        <form action="https://api.sheetmonkey.io/form/4wdNVus1GYE7vnTrtKYWDu" class="formulario_model" method="post">
+            <label for="Cod_prod">Código do Produto</label>
+            <input type="number" id="cod_prod" name="cod_produto">
+            <label for="nome_cli">Nome do Produto</label>
+            <input type="text" name="nome" id="nome_cli">
+            <label for="fabr">Fabricante</label>
+            <input type="text" name="fabricante" id="fabr">
+            <label for="fornecedor">Fornecedor</label>
+            <input type="text" name="fornecedor" id="fornecedor">
+            <label for="preco">Preço (R$)</label>
+            <input type="number" name="preco" id="preco">
+            <label for="desc">Descrição</label>
+            <textarea name="descricao" id="desc" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>
