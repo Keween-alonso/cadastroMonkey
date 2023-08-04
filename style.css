@@ -51,6 +51,22 @@ body{
 
 /* Forms css */
 
+header{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header h1{
+    vertical-align: middle;
+    margin-bottom: 70px;
+}
+img{
+    width: 15%;
+    vertical-align: middle;
+    margin: 0;
+}
 .formBox{
     display: flex;
     justify-content: center;
